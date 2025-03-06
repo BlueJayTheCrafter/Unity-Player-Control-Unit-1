@@ -11,7 +11,7 @@ public class FollowPlayerX : MonoBehaviour
     }
 
     // Update is called once per frame
-    private GameObject plane;
+    public GameObject plane;
     private Vector3 offset = new Vector3(50, 0, 0);
     void LateUpdate()
     {
